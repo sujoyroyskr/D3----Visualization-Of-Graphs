@@ -1,0 +1,15 @@
+source,target,type
+WPS RBC,TS SPS,type1
+TS SPS,Restricted,type1
+TS SPS,CR&R,type1
+Restricted,CR&R,type1
+Restricted,With Restricted,type1
+With Restricted,CR&R,type1
+DB,With Restricted,type1
+Approval,F2,type2
+Approval,Scan 2,type2
+F2,Scan 2,type2
+Scan,Approval,type1
+Scan,TS SPS,type1
+CR&R,Scan,type1
+CR&R,TS SPS,type1

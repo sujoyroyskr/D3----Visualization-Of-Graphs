@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<title>Back Office Process</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('Genpact1.png');
+    min-height: 100%;
+}
+
+
+/* Third image (Contact) */
+.bgimg-2 {
+    background-image: url("Genpact1.png");
+    min-height: 400px;
+}
+
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("Genpact1.png");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#backoffice" class="w3-bar-item w3-button w3-hide-small"> Back Office Process</a>
+    <a href="#livedemo" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Live Demo</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#backoffice" class="w3-bar-item w3-button" onclick="toggleFunction()">Back Office Process</a>
+    <a href="#livedemo" class="w3-bar-item w3-button" onclick="toggleFunction()">Live Demo</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Data Driven <span class="w3-hide-small">Back Office Process Mining using </span> Network Graphs</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="backoffice">
+  <h3 class="w3-center"> Back Office Process</h3>
+  <p class="w3-center"><em>According To Investopedia</em></p>
+  <p>The back office is the portion of a company made up of administration and support personnel who are not client-facing. People who hold jobs in back office positions carry out functions such as settlements, clearances, record maintenance, regulatory compliance, accounting and IT services. A financial services company, for example, is logically broken up into three parts: the front office makes up sales, marketing and customer support personnel; the middle office manages risk; and the back office provides administrative and support services.</p>
+
+</div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge"></span><b>
+    BottleNeck</b>
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge"></span><b>
+    Process Loop</b>
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge"></span><b>
+    Happy Paths (STP) </b>
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge"></span><b>
+    Re-Works </b>
+  </div>
+</div>
+
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Live <span class="w3-hide-small">Demo</span></span>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-64" id="livedemo">
+  <h3 class="w3-center"> Live Demo</h3>
+  <p class="w3-center"><em>Import Both CSV Files</em></p>
+  
+
+</div>
+
+<div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <button><a href=""><b><i class="fa fa-file-code-o"></i>  NODE CSV</b></a></button><br><br>
+      
+      <button><a href=""><b><i class="fa fa-file-code-o"></i>   LINK CSV</b> </a></button><br>
+      
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <button><a href=""><b> Visulize</b></a></button><br>
+    </div>
+  </div>  
+
+
+
+
+
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- Third Parallax Image with Portfolio Text -->
+
+<div class="bgimg-3 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><span class="w3-hide-small">CONTACT</span></span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">WHERE WE WORK</h3>
+  <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Banglore, India<br>
+      </div>
+      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <button><a href="https://www.facebook.com/ProudToBeGenpact/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a></button>
+    <button><a href="https://twitter.com/genpact?lang=en"><i class="fa fa-twitter w3-hover-opacity"></i></a></button>
+    <button><a href="https://in.linkedin.com/company/genpact"><i class="fa fa-linkedin w3-hover-opacity"></i></a></button>
+  </div>
+</footer>
+
+
+</body>
+</html>
