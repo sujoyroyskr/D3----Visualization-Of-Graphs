@@ -1,6 +1,0 @@
-source,target,type,category
-Verification,Billing-Account,type1,category1
-Billing-Account,Implementation,type1,category1
-Billing-Account,Reconcilla,type1,category2
-Billing-Account,Exception,type1,category2
-Reconcilla,Exception,type1,category2
