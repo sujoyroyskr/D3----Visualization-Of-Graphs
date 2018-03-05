@@ -1,0 +1,15 @@
+source,target,type,category,source_1,target_1
+WPS RBC,TS SPS,type1,category1,Dhoni,Kholi
+TS SPS,Restricted,type1,category1,Dhoni,Rahul
+TS SPS,CR&R,type1,category1,Kholi,Rahul
+Restricted,CR&R,type1,category1,Kholi,Rohit
+Restricted,With Restricted,type1,category1,Rohit,CR&R
+With Restricted,CR&R,type1,category1,Approval,Shewag
+DB,With Restricted,type1,category1,Approval,Dhawan
+Approval,F2,type2,category2,Shewag,Dhawan
+Approval,Scan 2,type2,category2,Vijay,Approval
+F2,Scan 2,type2,category2,Rahul,Vijay
+Scan,Approval,type1,category1,Rahul,Dhoni
+Scan,TS SPS,type1,category1,Dravid,Sachin
+CR&R,Scan,type1,category1,Sachin,Rahul
+CR&R,TS SPS,type1,category1,Rahul,Dravid

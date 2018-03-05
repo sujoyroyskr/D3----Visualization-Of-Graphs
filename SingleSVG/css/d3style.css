@@ -1,0 +1,78 @@
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+.node {
+  stroke: #fff;
+  stroke-width: .5px;
+}
+
+.node text {
+  pointer-events: none;
+  font: 15px sans-serif;
+  font-weight: bolder;
+}
+
+.node.group1{
+  fill: green;
+  stroke-opacity: .3; 
+  stroke-width: 4;
+}
+
+.node.group2{
+  fill: red;
+  stroke-opacity: .3; 
+  stroke-width: 4;
+}
+
+.node.group3{
+  fill: blue;
+  stroke-opacity: .3;
+  stroke-width: 4; 
+}
+
+.node.group4{
+  fill: black;
+  stroke-opacity: .3; 
+  stroke-width: 4;
+}
+
+.node.difference1{
+  fill: blue;
+  stroke-opacity: .3;
+  stroke-width: 4;
+}
+
+.node.difference2{
+  fill: yellow;
+  stroke-opacity: .3;
+  stroke-width: 4;
+}
+
+.link.type1{
+  stroke: black;
+  /*stroke-opacity: .5; */
+  stroke-width: 4;
+}
+
+.link.category1{
+  stroke: green;
+  stroke-width: 4;
+}
+
+.link.category2{
+  stroke: red;
+  stroke-width: 4;
+}
+
+.link.type2{
+  stroke: red;
+  /*stroke-opacity: .5; */
+  stroke-width: 4;
+}
+
+.parentdiv div{
+  float: left;
+  clear: none;
+}
