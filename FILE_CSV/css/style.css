@@ -1,0 +1,7 @@
+.link line{
+  stroke: #000;
+}
+
+.node circle{
+  stroke: black;
+}
